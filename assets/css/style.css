@@ -1,3 +1,48 @@
-.section-image1{
-border: 3px dotted balck;
+.body{
+    margin: 0;
+}
+.top-words{
+    font-family: 'Indie Flower', cursive;
+}
+.animals-gallery{
+    text-align: center;
+}
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+    border: 5px solid yellowgreen;
+    border-radius: 10px;
+    margin: 0.3%;
+    object-fit: cover;
+    object-position: -68px;
+}
+.image2{
+    object-position: -7px;
+}
+.image3{
+    object-position: -76px;
+}
+.image4{
+    object-position: -96px;
+}
+.image5{
+    object-position: -108px;
+}
+.image6{
+    object-position: -66px;
+}
+.image7{
+    object-position: -23px;
+}
+.image8{
+    object-position: -7px;
 }
